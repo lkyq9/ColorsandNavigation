@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4DB3E9A91FA3DEDB001D8BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E9A81FA3DEDB001D8BC4 /* AppDelegate.swift */; };
-		4DB3E9AB1FA3DEDB001D8BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E9AA1FA3DEDB001D8BC4 /* ViewController.swift */; };
 		4DB3E9AE1FA3DEDB001D8BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3E9AC1FA3DEDB001D8BC4 /* Main.storyboard */; };
 		4DB3E9B01FA3DEDB001D8BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3E9AF1FA3DEDB001D8BC4 /* Assets.xcassets */; };
 		4DB3E9B31FA3DEDB001D8BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3E9B11FA3DEDB001D8BC4 /* LaunchScreen.storyboard */; };
 		4DB3E9BE1FA3DEDB001D8BC4 /* Colors_with_NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E9BD1FA3DEDB001D8BC4 /* Colors_with_NavigationTests.swift */; };
 		4DB3E9C91FA3DEDB001D8BC4 /* Colors_with_NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E9C81FA3DEDB001D8BC4 /* Colors_with_NavigationUITests.swift */; };
+		4DB3E9D91FA40E53001D8BC4 /* ColorsandNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E9D81FA40E53001D8BC4 /* ColorsandNavViewController.swift */; };
+		4DB3E9DD1FA416C2001D8BC4 /* ColordetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E9DC1FA416C2001D8BC4 /* ColordetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		4DB3E9A51FA3DEDB001D8BC4 /* Colors with Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colors with Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB3E9A81FA3DEDB001D8BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DB3E9AA1FA3DEDB001D8BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DB3E9AD1FA3DEDB001D8BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DB3E9AF1FA3DEDB001D8BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB3E9B21FA3DEDB001D8BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		4DB3E9C41FA3DEDB001D8BC4 /* Colors with NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colors with NavigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB3E9C81FA3DEDB001D8BC4 /* Colors_with_NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors_with_NavigationUITests.swift; sourceTree = "<group>"; };
 		4DB3E9CA1FA3DEDB001D8BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB3E9D81FA40E53001D8BC4 /* ColorsandNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsandNavViewController.swift; sourceTree = "<group>"; };
+		4DB3E9DC1FA416C2001D8BC4 /* ColordetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColordetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,13 @@
 		4DB3E9A71FA3DEDB001D8BC4 /* Colors with Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				4DB3E9D81FA40E53001D8BC4 /* ColorsandNavViewController.swift */,
 				4DB3E9A81FA3DEDB001D8BC4 /* AppDelegate.swift */,
-				4DB3E9AA1FA3DEDB001D8BC4 /* ViewController.swift */,
 				4DB3E9AC1FA3DEDB001D8BC4 /* Main.storyboard */,
 				4DB3E9AF1FA3DEDB001D8BC4 /* Assets.xcassets */,
 				4DB3E9B11FA3DEDB001D8BC4 /* LaunchScreen.storyboard */,
 				4DB3E9B41FA3DEDB001D8BC4 /* Info.plist */,
+				4DB3E9DC1FA416C2001D8BC4 /* ColordetailViewController.swift */,
 			);
 			path = "Colors with Navigation";
 			sourceTree = "<group>";
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB3E9AB1FA3DEDB001D8BC4 /* ViewController.swift in Sources */,
+				4DB3E9D91FA40E53001D8BC4 /* ColorsandNavViewController.swift in Sources */,
+				4DB3E9DD1FA416C2001D8BC4 /* ColordetailViewController.swift in Sources */,
 				4DB3E9A91FA3DEDB001D8BC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
